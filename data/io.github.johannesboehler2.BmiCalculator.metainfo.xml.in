@@ -15,6 +15,7 @@
   </developer>
 
   <url type="homepage">https://github.com/johannesboehler2/bmicalculator</url>
+  <url type="vcs-browser">https://github.com/johannesboehler2/bmicalculator</url>
   <url type="bugtracker">https://github.com/johannesboehler2/bmicalculator/issues</url>
 
   <launchable type="desktop-id">io.github.johannesboehler2.BmiCalculator.desktop</launchable>
