@@ -1,0 +1,207 @@
+# BRAZILIAN PORTUGUESE TRANSLATION.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the bmicalculator package.
+# Renato Tavares <dr.renatotavares@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bmicalculator\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-16 23:43+0200\n"
+"PO-Revision-Date: 2025-09-28 15:56\n"
+"Last-Translator: Renato Tavares\n"
+"Language-Team: Portuguese (Brazil)\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:6
+msgid "BMI Calculator"
+msgstr "Calculadora de IMC"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:7
+msgid "Calculate your BMI"
+msgstr "Calcule seu IMC"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:14
+msgid "Johannes Böhler"
+msgstr "Johannes Böhler"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:31
+msgid "Calculate your body mass index from weight, height and gender."
+msgstr "Calcule seu índice de massa corporal (IMC) a partir de peso, altura e gênero."
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:48
+msgid "Light style"
+msgstr "Estilo claro"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:58
+msgid "Landscape"
+msgstr "Paisagem"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:66
+msgid "Dark style"
+msgstr "Estilo escuro"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:74
+msgid "Obese"
+msgstr "Obesidade"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:82
+msgid "Underweight"
+msgstr "Abaixo do peso"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:90
+msgid "Smartphone portrait"
+msgstr "Smartphone em retrato"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:98
+msgid "Smartphone landscape"
+msgstr "Smartphone em paisagem"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:106
+msgid "Purism Librem 5 - Light style"
+msgstr "Purism Librem 5 - Estilo claro"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:114
+msgid "Purism Librem 5 - Dark style"
+msgstr "Purism Librem 5 - Estilo escuro"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:140
+msgid "Two columns layout for landscape mode"
+msgstr "Layout em duas colunas para modo paisagem"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:148
+msgid "Scrollable content"
+msgstr "Conteúdo rolável"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:156
+msgid "First public release"
+msgstr "Primeiro lançamento público"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:164
+msgid "Add new app icon"
+msgstr "Novo ícone do aplicativo"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:172
+msgid "Initial release"
+msgstr "Lançamento inicial"
+
+#: src/window.ui:31
+msgid "Menu"
+msgstr "Menu"
+
+#: src/window.ui:45
+msgid "Calculate"
+msgstr "Calcular"
+
+#: src/window.ui:84
+msgid "Weight (in kg)"
+msgstr "Peso (em kg)"
+
+#: src/window.ui:91
+msgid "Height (in cm)"
+msgstr "Altura (em cm)"
+
+#: src/window.ui:98
+msgid "Gender"
+msgstr "Gênero"
+
+#: src/window.ui:459
+msgid "_Male"
+msgstr "_Masculino"
+
+#: src/window.ui:462
+msgid "_Female"
+msgstr "_Feminino"
+
+#: src/window.ui:470
+msgid "_Preferences"
+msgstr "_Preferências"
+
+#: src/window.ui:474
+msgid "_Keyboard Shortcuts"
+msgstr "Atalhos de _teclado"
+
+#: src/window.ui:478
+msgid "_About BMI Calculator"
+msgstr "Sobre a _Calculadora de IMC"
+
+#: src/preferences.ui:7
+msgid "Preferences"
+msgstr "Preferências"
+
+#: src/preferences.ui:12
+msgid "Appearance"
+msgstr "Aparência"
+
+#: src/preferences.ui:16
+msgid "Theme"
+msgstr "Tema"
+
+#: src/preferences.ui:25
+msgctxt "preferences"
+msgid "Follow System"
+msgstr "Seguir o sistema"
+
+#: src/preferences.ui:26
+msgctxt "preferences"
+msgid "Light"
+msgstr "Claro"
+
+#: src/preferences.ui:27
+msgctxt "preferences"
+msgid "Dark"
+msgstr "Escuro"
+
+#: src/preferences.ui:39
+msgid "Behavior"
+msgstr "Comportamento"
+
+#: src/preferences.ui:43
+msgid "Remember entries"
+msgstr "Lembrar entradas"
+
+#: data/io.github.johannesboehler2.BmiCalculator.gschema.xml:9
+msgid "Color scheme"
+msgstr "Esquema de cores"
+
+#: data/io.github.johannesboehler2.BmiCalculator.gschema.xml:16
+msgid "Remember entries"
+msgstr "Lembrar entradas"
+
+#: data/io.github.johannesboehler2.BmiCalculator.gschema.xml:21
+msgid "Weight"
+msgstr "Peso"
+
+#: data/io.github.johannesboehler2.BmiCalculator.gschema.xml:26
+msgid "Height"
+msgstr "Altura"
+
+#: data/io.github.johannesboehler2.BmiCalculator.gschema.xml:32
+msgid "Gender"
+msgstr "Gênero"
+
+#: src/application.rs:219
+msgid "Underweight"
+msgstr "Abaixo do peso"
+
+#: src/application.rs:231
+msgid "Normal range"
+msgstr "Faixa normal"
+
+#: src/application.rs:239
+msgid "Overweight"
+msgstr "Sobrepeso"
+
+#: src/application.rs:247
+msgid "Obese (Class I)"
+msgstr "Obesidade (Classe I)"
+
+#: src/application.rs:255
+msgid "Obese (Class II)"
+msgstr "Obesidade (Classe II)"
+
+#: src/application.rs:263
+msgid "Obese (Class III)"
+msgstr "Obesidade (Classe III)"
