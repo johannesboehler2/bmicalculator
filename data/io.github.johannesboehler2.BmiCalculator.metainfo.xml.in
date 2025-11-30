@@ -85,6 +85,15 @@
   </screenshots>
 
   <releases>
+    <release version="1.4" date="2025-10-30">
+      <description>
+        <p>
+          Add Brazilian Portuguese translation (thanks to Renato Tavares),
+          Add Spanish translation (thnaks to Marcos Sánchez),
+          Use GNOME 49
+        </p>
+      </description>
+    </release>
     <release version="1.3.1" date="2025-06-14">
       <description>
         <p>

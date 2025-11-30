@@ -162,9 +162,10 @@ impl BmicalculatorApplication {
             .license_type(gtk::License::Gpl30)
             .website("https://github.com/johannesboehler2/bmicalculator")
             .release_notes("
-	            <p>
-	                Update italian translation (thanks to Albano Battistella),
-	                add german translations
+            	<p>
+          		Add Brazilian Portuguese translation (thanks to Renato Tavares),
+          		Add Spanish translation (thnaks to Marcos Sánchez),
+          		Use GNOME 49
                 </p>
       	    ")
             .build();

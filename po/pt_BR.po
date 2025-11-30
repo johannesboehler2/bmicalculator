@@ -166,10 +166,6 @@ msgstr "Lembrar entradas"
 msgid "Color scheme"
 msgstr "Esquema de cores"
 
-#: data/io.github.johannesboehler2.BmiCalculator.gschema.xml:16
-msgid "Remember entries"
-msgstr "Lembrar entradas"
-
 #: data/io.github.johannesboehler2.BmiCalculator.gschema.xml:21
 msgid "Weight"
 msgstr "Peso"
@@ -177,14 +173,6 @@ msgstr "Peso"
 #: data/io.github.johannesboehler2.BmiCalculator.gschema.xml:26
 msgid "Height"
 msgstr "Altura"
-
-#: data/io.github.johannesboehler2.BmiCalculator.gschema.xml:32
-msgid "Gender"
-msgstr "Gênero"
-
-#: src/application.rs:219
-msgid "Underweight"
-msgstr "Abaixo do peso"
 
 #: src/application.rs:231
 msgid "Normal range"

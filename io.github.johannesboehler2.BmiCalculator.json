@@ -1,7 +1,7 @@
 {
     "id" : "io.github.johannesboehler2.BmiCalculator",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "48",
+    "runtime-version" : "49",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions" : [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -44,7 +44,7 @@
                     "type" : "git",
                     "branch": "main",
                     "url" : "https://github.com/johannesboehler2/bmicalculator.git"
-            	}
+                }
             ]
         }
     ]
