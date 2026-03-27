@@ -168,3 +168,31 @@ button.opaque.image-button.pill.save_button {
 button.opaque.image-button.pill.history_button {
   border-radius: 12px 26px 26px 12px;
 }
+
+
+@media (prefers-color-scheme: dark) {
+  window.background,
+  .screen-view > .background,
+  sheet.background {
+    background-color: #323232;
+  }
+
+  popover contents,
+  popover arrow {
+    border: 1px solid #646464;
+  }
+
+  popover.background arrow,
+  popover.background contents {
+    background-color: #3c3c3c;
+  }
+
+
+  label.bmi_result {
+    background-color: rgba(255,255,255, 0.07);
+  }
+
+  dimming {
+    background-color: rgba(0,0,0, 0.5);
+  }
+}

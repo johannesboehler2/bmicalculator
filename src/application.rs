@@ -163,9 +163,7 @@ impl BmicalculatorApplication {
             .website("https://github.com/johannesboehler2/bmicalculator")
             .release_notes("
             	<p>
-          		Add Brazilian Portuguese translation (thanks to Renato Tavares),
-          		Add Spanish translation (thnaks to Marcos Sánchez),
-          		Use GNOME 49
+          		Use GNOME 50 runtime
                 </p>
       	    ")
             .build();
