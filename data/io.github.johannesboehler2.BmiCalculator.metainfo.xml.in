@@ -85,6 +85,13 @@
   </screenshots>
 
   <releases>
+    <release version="1.6" date="2026-09-18">
+      <description>
+        <p>
+          Use GNOME 51 runtime
+        </p>
+      </description>
+    </release>
     <release version="1.5" date="2026-03-27">
       <description>
         <p>

@@ -158,12 +158,12 @@ impl BmicalculatorApplication {
             .translator_credits("Heimen Stoffels\nAlbano Battistella")
             .version(VERSION)
             .developers(vec!["Johannes Böhler"])
-            .copyright("© 2024, 2025 Johannes Böhler")
+            .copyright("© 2024, 2025, 2026 Johannes Böhler")
             .license_type(gtk::License::Gpl30)
             .website("https://github.com/johannesboehler2/bmicalculator")
             .release_notes("
             	<p>
-          		Use GNOME 50 runtime
+          		Use GNOME 51 runtime
                 </p>
       	    ")
             .build();
