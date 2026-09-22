@@ -25,8 +25,6 @@ use gtk::{gio, glib};
 use gio::Settings;
 
 
-
-
 mod imp {
     use adw::prelude::ComboRowExt;
     use adw::StyleManager;

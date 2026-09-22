@@ -85,6 +85,13 @@
   </screenshots>
 
   <releases>
+    <release version="1.6.1" date="2026-09-22">
+      <description>
+        <p>
+          Refactor shortcuts dialog, add translators to credits
+        </p>
+      </description>
+    </release>
     <release version="1.6" date="2026-09-18">
       <description>
         <p>

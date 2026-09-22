@@ -172,7 +172,7 @@ impl BmicalculatorApplication {
             .website("https://github.com/johannesboehler2/bmicalculator")
             .release_notes("
             	<p>
-          		Use GNOME 51 runtime
+          		Refactor shortcuts dialog, add translators to credits
                 </p>
       	    ")
             .build();

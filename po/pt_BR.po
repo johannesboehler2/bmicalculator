@@ -1,5 +1,5 @@
 # BRAZILIAN PORTUGUESE TRANSLATION.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) 2026
 # This file is distributed under the same license as the bmicalculator package.
 # Renato Tavares <dr.renatotavares@gmail.com>, 2025.
 #
