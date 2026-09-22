@@ -1,6 +1,6 @@
 /* application.rs
  *
- * Copyright 2024, 2025 Johannes Böhler
+ * Copyright 2024, 2025, 2026 Johannes Böhler
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -52,8 +52,10 @@ mod imp {
             self.parent_constructed();
             let obj = self.obj();
             obj.setup_gactions();
-            obj.set_accels_for_action("app.quit", &["<primary>q"]);
             obj.set_accels_for_action("app.preferences", &["<Ctrl>comma"]);
+            obj.set_accels_for_action("app.shortcuts", &["<Ctrl><Shift>question"]);
+            obj.set_accels_for_action("app.about", &["F1"]);
+            obj.set_accels_for_action("app.quit", &["<primary>q"]);
         }
     }
 
@@ -86,7 +88,10 @@ mod imp {
 glib::wrapper! {
     pub struct BmicalculatorApplication(ObjectSubclass<imp::BmicalculatorApplication>)
         @extends gio::Application, gtk::Application, adw::Application,
-        @implements gio::ActionGroup, gio::ActionMap;
+        @implements
+        gio::ActionGroup,
+        gio::ActionMap,
+        adw::ShortcutsDialog;
 }
 
 impl BmicalculatorApplication {
@@ -113,6 +118,10 @@ impl BmicalculatorApplication {
             .activate(move |app: &Self, _, _| app.show_about())
             .build();
 
+        let shortcuts_action = gio::ActionEntry::builder("shortcuts")
+            .activate(move |app: &Self, _, _| app.show_shortcuts())
+            .build();
+
         let preferences_action = gio::ActionEntry::builder("preferences")
             .activate(move |app: &Self, _, _| app.show_preferences())
             .build();
@@ -121,7 +130,7 @@ impl BmicalculatorApplication {
             .activate(move |app: &Self, _, _| app.calculate_bmi())
             .build();
 
-        self.add_action_entries([quit_action, about_action, preferences_action, calculate_bmi_action]);
+        self.add_action_entries([quit_action, about_action, preferences_action, calculate_bmi_action, shortcuts_action]);
     }
 
     fn setup_settings(&self) {
@@ -155,7 +164,7 @@ impl BmicalculatorApplication {
             .application_name("BMI Calculator")
             .application_icon("io.github.johannesboehler2.BmiCalculator")
             .developer_name("Johannes Böhler")
-            .translator_credits("Heimen Stoffels\nAlbano Battistella")
+            .translator_credits("Heimen Stoffels\nAlbano Battistella\nMarcos Sánchez\nRenato Tavares")
             .version(VERSION)
             .developers(vec!["Johannes Böhler"])
             .copyright("© 2024, 2025, 2026 Johannes Böhler")
@@ -170,6 +179,27 @@ impl BmicalculatorApplication {
 
         about_dialog.present(Some(&window));
 
+    }
+
+    fn show_shortcuts(&self) {
+        let window = self.active_window().unwrap();
+
+        let shortcuts_dialog = adw::ShortcutsDialog::builder().build();
+
+        let general_section = adw::ShortcutsSection::new(Some(""));
+
+	let shortcuts_item = adw::ShortcutsItem::new("Keyboard Shortcuts", "<Ctrl><Shift>question");
+	general_section.add(shortcuts_item);
+
+	let about_item = adw::ShortcutsItem::new("About BMI Calculator", "F1");
+	general_section.add(about_item);
+
+	let shortcuts_item = adw::ShortcutsItem::new("Quit Application", "<Control>q");
+	general_section.add(shortcuts_item);
+
+        shortcuts_dialog.add(general_section);
+
+        shortcuts_dialog.present(Some(&window));
     }
 
     fn calculate_bmi(&self) {

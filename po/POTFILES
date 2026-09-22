@@ -2,5 +2,6 @@ data/io.github.johannesboehler2.BmiCalculator.desktop.in
 data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in
 data/io.github.johannesboehler2.BmiCalculator.gschema.xml
 src/application.rs
+src/window.rs
 src/window.ui
 src/preferences.ui

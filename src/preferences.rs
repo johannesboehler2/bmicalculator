@@ -1,6 +1,6 @@
 /* preferences.rs
  *
- * Copyright 2024, 2025 Johannes Böhler
+ * Copyright 2024, 2025, 2026 Johannes Böhler
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -156,7 +156,13 @@ mod imp {
 glib::wrapper! {
     /// Text Pieces preferences window.
     pub struct BmicalculatorPreferences(ObjectSubclass<imp::BmicalculatorPreferences>)
-        @extends gtk::Widget, adw::Dialog, adw::PreferencesDialog;
+        @extends
+        gtk::Widget,
+        adw::Dialog,
+        adw::PreferencesDialog,
+        gtk::ConstraintTarget,
+        gtk::Buildable,
+        gtk::Accessible;
 }
 
 impl BmicalculatorPreferences {

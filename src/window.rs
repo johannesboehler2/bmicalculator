@@ -1,6 +1,6 @@
 /* window.rs
  *
- * Copyright 2024, 2025 Johannes Böhler
+ * Copyright 2024, 2025, 2026 Johannes Böhler
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -109,6 +109,7 @@ mod imp {
     impl WindowImpl for BmicalculatorWindow {}
     impl ApplicationWindowImpl for BmicalculatorWindow {}
     impl AdwApplicationWindowImpl for BmicalculatorWindow {}
+    impl ShortcutManagerImpl for BmicalculatorWindow {}
 }
 
 glib::wrapper! {
@@ -117,8 +118,15 @@ glib::wrapper! {
         gtk::Window,
         gtk::ApplicationWindow,
         adw::ApplicationWindow,
-        @implements gio::ActionGroup,
-        gio::ActionMap;
+        @implements
+        gio::ActionGroup,
+        gio::ActionMap,
+        gtk::Accessible,
+        gtk::Buildable,
+        gtk::ConstraintTarget,
+        gtk::ShortcutManager,
+        gtk::Root,
+        gtk::Native;
 }
 
 #[gtk::template_callbacks]

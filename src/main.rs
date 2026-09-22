@@ -1,6 +1,6 @@
 /* main.rs
  *
- * Copyright 2024, 2025 Johannes Böhler
+ * Copyright 2024, 2025, 2026 Johannes Böhler
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
