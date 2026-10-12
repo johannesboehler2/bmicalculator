@@ -1,0 +1,187 @@
+# CZECH TRANSLATION.
+# Copyright (C) 2026
+# This file is distributed under the same license as the bmicalculator package.
+# Johannes Böhler, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bmicalculator\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-16 23:43+0200\n"
+"PO-Revision-Date: 2026-10-11 22:48+0200\n"
+"Last-Translator: Pavel Borecki\n"
+"Language-Team: czech\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+#: data/io.github.johannesboehler2.BmiCalculator.desktop.in:2
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:6
+msgid "BMI Calculator"
+msgstr "Kalkulátor BMI"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:7
+msgid "Calculate your BMI"
+msgstr "Vypočítejte si své BMI"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:14
+msgid "Johannes Böhler"
+msgstr "Johannes Böhler"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:31
+msgid "Calculate your body mass index from weight, height and gender."
+msgstr "Vypočítejte si svůj index tělesné hmotnosti z váhy, výšky a pohlaví."
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:50
+msgid "Light style"
+msgstr "Světlý vzhled"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:54
+msgid "Dark style"
+msgstr "Tmavý vzhled"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:58
+msgid "Obese"
+msgstr "Obezita"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:62
+msgid "Underweight"
+msgstr "Podváha"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:69
+msgid "Two columns layout for landscape mode"
+msgstr "Dvousloupcové rozvržení pro režim na šířku"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:74
+msgid "Scrollable content"
+msgstr "Posouvatelný obsah"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:79
+msgid "First public release"
+msgstr "První veřejné vydání"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:84
+msgid "Add new app icon"
+msgstr "Přidána nová ikona aplikace"
+
+#: data/io.github.johannesboehler2.BmiCalculator.metainfo.xml.in:89
+msgid "Initial release"
+msgstr "Počáteční vydání"
+
+#: src/window.ui:31
+msgid "Menu"
+msgstr "Nabídka"
+
+#: src/window.ui:45
+msgid "Calculate"
+msgstr "Vypočítat"
+
+#: src/window.ui:84
+msgid "Weight (in kg)"
+msgstr "Váha (v kg)"
+
+#: src/window.ui:91
+msgid "Height (in cm)"
+msgstr "Výška (v cm)"
+
+#: src/window.ui:98
+msgid "Gender"
+msgstr "Pohlaví"
+
+#: src/window.ui:124
+msgid "0"
+msgstr "0"
+
+#: src/window.ui:305
+msgid "18.5"
+msgstr "18,5"
+
+#: src/window.ui:326
+msgid "25.0"
+msgstr "25,0"
+
+#: src/window.ui:347
+msgid "30.0"
+msgstr "30,0"
+
+#: src/window.ui:368
+msgid "35.0"
+msgstr "35,0"
+
+#: src/window.ui:389
+msgid "40.0"
+msgstr "40,0"
+
+#: src/window.ui:454
+msgid "_Male"
+msgstr "_Muž"
+
+#: src/window.ui:457
+msgid "_Female"
+msgstr "Ž_ena"
+
+#: src/window.ui:547
+msgid "_Preferences"
+msgstr "_Předvolby"
+
+#: src/window.ui:465
+msgid "_Keyboard Shortcuts"
+msgstr "_Klávesové zkratky"
+
+#: src/window.ui:469
+msgid "_About BMI Calculator"
+msgstr "_O kalkulátoru BMI"
+
+#: src/preferences.ui:8
+msgid "Preferences"
+msgstr "Předvolby"
+
+#: src/preferences.ui:13
+msgid "Appearance"
+msgstr "Vzhled"
+
+#: src/preferences.ui:38
+msgid "Behavior"
+msgstr "Chování"
+
+#: src/preferences.ui:16
+msgid "Theme"
+msgstr "Motiv vzhledu"
+
+#: src/preferences.ui:26
+msgid "Follow System"
+msgstr "Podle systému"
+
+#: src/preferences.ui:27
+msgid "Light"
+msgstr "Světlý"
+
+#: src/preferences.ui:28
+msgid "Dark"
+msgstr "Tmavý"
+
+#: src/preferences.ui:41
+msgid "Remember entries"
+msgstr "Zapamatovat si položky"
+
+#: src/application.rs:231
+msgid "Normal range"
+msgstr "V normě"
+
+#: src/application.rs:239
+msgid "Overweight"
+msgstr "Nadváha"
+
+#: src/application.rs:247
+msgid "Obese (Class I)"
+msgstr "Obezita (1. stupně)"
+
+#: src/application.rs:255
+msgid "Obese (Class II)"
+msgstr "Obezita (2. stupně)"
+
+#: src/application.rs:263
+msgid "Obese (Class III)"
+msgstr "Obezita (3. stupně)"
