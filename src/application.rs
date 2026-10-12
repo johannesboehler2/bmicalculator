@@ -164,7 +164,7 @@ impl BmicalculatorApplication {
             .application_name("BMI Calculator")
             .application_icon("io.github.johannesboehler2.BmiCalculator")
             .developer_name("Johannes Böhler")
-            .translator_credits("Heimen Stoffels\nAlbano Battistella\nMarcos Sánchez\nRenato Tavares")
+            .translator_credits("Heimen Stoffels\nAlbano Battistella\nMarcos Sánchez\nRenato Tavares\nPavel Borecki")
             .version(VERSION)
             .developers(vec!["Johannes Böhler"])
             .copyright("© 2024, 2025, 2026 Johannes Böhler")
@@ -172,7 +172,7 @@ impl BmicalculatorApplication {
             .website("https://github.com/johannesboehler2/bmicalculator")
             .release_notes("
             	<p>
-          		Refactor shortcuts dialog, add translators to credits
+          		Add Czech translation (thanks to Pavel Borecki)
                 </p>
       	    ")
             .build();

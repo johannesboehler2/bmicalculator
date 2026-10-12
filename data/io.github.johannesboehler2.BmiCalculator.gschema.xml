@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist gettext-domain="bmicalculator">
-	<schema id="io.github.johannesboehler2.BmiCalculator" path="/io/github/johannesboehler2/BmiCalculator/">
-	  <key name="color-scheme" type="s">
+  <schema id="io.github.johannesboehler2.BmiCalculator" path="/io/github/johannesboehler2/BmiCalculator/">
+    <key name="color-scheme" type="s">
       <choices>
         <choice value="follow" />
         <choice value="light" />
@@ -10,19 +10,19 @@
       <default>'follow'</default>
       <summary>Color scheme</summary>
     </key>
-  	  <key name="remember-entries" type="b">
+    <key name="remember-entries" type="b">
       <default>true</default>
       <summary>Remember entries</summary>
     </key>
-  	  <key name="weight" type="s">
+    <key name="weight" type="s">
       <default>''</default>
       <summary>Weight</summary>
     </key>
-  	  <key name="height" type="s">
+    <key name="height" type="s">
       <default>''</default>
       <summary>Height</summary>
     </key>
-	  <key name="gender" type="i">
+    <key name="gender" type="i">
       <default>0</default>
       <summary>Gender</summary>
     </key>
