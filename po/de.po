@@ -168,21 +168,21 @@ msgstr "Eingaben erhalten"
 
 #: src/application.rs:231
 msgid "Normal range"
-msgstr ""
+msgstr "Normalgewicht"
 
 #: src/application.rs:239
 msgid "Overweight"
-msgstr ""
+msgstr "Übergewicht"
 
 #: src/application.rs:247
 msgid "Obese (Class I)"
-msgstr ""
+msgstr "Adipositas (Grad I)"
 
 #: src/application.rs:255
 msgid "Obese (Class II)"
-msgstr ""
+msgstr "Adipositas (Grad II)"
 
 #: src/application.rs:263
 msgid "Obese (Class III)"
-msgstr ""
+msgstr "Adipositas (Grad III)"
 
