@@ -188,13 +188,13 @@ impl BmicalculatorApplication {
 
         let general_section = adw::ShortcutsSection::new(Some(""));
 
-	let shortcuts_item = adw::ShortcutsItem::new("Keyboard Shortcuts", "<Ctrl><Shift>question");
+	let shortcuts_item = adw::ShortcutsItem::new(&gettext("Keyboard Shortcuts"), "<Ctrl><Shift>question");
 	general_section.add(shortcuts_item);
 
-	let about_item = adw::ShortcutsItem::new("About BMI Calculator", "F1");
+	let about_item = adw::ShortcutsItem::new(&gettext("About BMI Calculator"), "F1");
 	general_section.add(about_item);
 
-	let shortcuts_item = adw::ShortcutsItem::new("Quit Application", "<Control>q");
+	let shortcuts_item = adw::ShortcutsItem::new(&gettext("Quit Application"), "<Control>q");
 	general_section.add(shortcuts_item);
 
         shortcuts_dialog.add(general_section);
