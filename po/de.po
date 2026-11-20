@@ -151,14 +151,17 @@ msgid "Theme"
 msgstr "Thema"
 
 #: src/preferences.ui:26
+msgctxt "preferences"
 msgid "Follow System"
 msgstr "System"
 
 #: src/preferences.ui:27
+msgctxt "preferences"
 msgid "Light"
 msgstr "Hell"
 
 #: src/preferences.ui:28
+msgctxt "preferences"
 msgid "Dark"
 msgstr "Dunkel"
 
