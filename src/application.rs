@@ -172,7 +172,7 @@ impl BmicalculatorApplication {
             .website("https://github.com/johannesboehler2/bmicalculator")
             .release_notes("
             	<p>
-          		Add Czech translation (thanks to Pavel Borecki)
+          		Fix translations
                 </p>
       	    ")
             .build();
