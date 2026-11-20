@@ -115,12 +115,12 @@ msgid "40.0"
 msgstr "40,0"
 
 #: src/window.ui:454
-msgid "_Male"
-msgstr "_Muž"
+msgid "Male"
+msgstr "Muž"
 
 #: src/window.ui:457
-msgid "_Female"
-msgstr "Ž_ena"
+msgid "Female"
+msgstr "Žena"
 
 #: src/window.ui:547
 msgid "_Preferences"

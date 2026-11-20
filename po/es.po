@@ -112,12 +112,12 @@ msgid "Gender"
 msgstr "Género"
 
 #: src/window.ui:459
-msgid "_Male"
-msgstr "_Masculino"
+msgid "Male"
+msgstr "Masculino"
 
 #: src/window.ui:462
-msgid "_Female"
-msgstr "_Femenino"
+msgid "Female"
+msgstr "Femenino"
 
 #: src/window.ui:470
 msgid "_Preferences"

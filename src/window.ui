@@ -109,8 +109,8 @@
                             <property name="model">
                               <object class="GtkStringList" id="gender_list">
                                 <items>
-                                  <item>Male</item>
-                                  <item>Female</item>
+                                  <item translatable="yes">Male</item>
+                                  <item translatable="yes">Female</item>
                                 </items>
                               </object>
                             </property>
@@ -448,21 +448,6 @@
     </child>
   </template>
 
-
-  <object class="GtkListStore" id="liststore">
-    <columns>
-      <!-- column-name genders -->
-      <column type="gchararray"/>
-    </columns>
-    <data>
-      <row>
-        <col id="0" translatable="yes">_Male</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">_Female</col>
-      </row>
-    </data>
-  </object>
 
   <menu id="primary_menu">
     <section>

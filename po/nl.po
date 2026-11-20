@@ -116,11 +116,11 @@ msgid "40.0"
 msgstr "40,0"
 
 #: src/window.ui:454
-msgid "_Male"
+msgid "Male"
 msgstr "Man"
 
 #: src/window.ui:457
-msgid "_Female"
+msgid "Female"
 msgstr "Vrouw"
 
 #: src/window.ui:547
